@@ -19,7 +19,7 @@ class GachaMachineTest extends TestCase {
 		// play one time
 		$this -> GachaMachineInstance -> turnWheel() ;
 		// it should -1 Gacha
-		$this -> assertEquals( 99 , $this -> GachaMachineInstance -> getGachas() );
+		$this -> assertEquals( 99 , $this -> GachaMachineInstance -> getGachas() -2 );
 
 	}
 
