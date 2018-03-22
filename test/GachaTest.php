@@ -21,8 +21,6 @@ class GachaMachineTest extends TestCase {
 		// it should -1 Gacha
 		$this -> assertEquals( 99 , $this -> GachaMachineInstance -> getGachas() ); // Success
 
-		$this -> assertEquals( 99 , $this -> GachaMachineInstance -> getGachas() - 1 ); // Fail
-
 	}
 
 }
