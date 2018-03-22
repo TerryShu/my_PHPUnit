@@ -1,5 +1,5 @@
 <?php
-
+//轉蛋機
 class GachaMachine {
 	
 	private $Gachas;
@@ -25,7 +25,7 @@ class GachaMachine {
 	}
 
 	/*
-	* @brief turn one time , and Gacha will -1 in machine
+	* @brief turn Wheel one time , and Gacha will -1 in machine
 	*
 	*/
 
